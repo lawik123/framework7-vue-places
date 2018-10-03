@@ -42,3 +42,10 @@ dist/
 npm-debug.log
 www/
 src/fonts
+
+#cordova related
+platforms/
+plugins/
+
+#editor
+.vscode/
