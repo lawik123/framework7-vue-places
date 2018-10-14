@@ -23,8 +23,8 @@ export default {
         id: 'places.vue.framework7', // App bundle ID
         name: 'Places', // App name
         theme: 'auto', // Automatic theme detection
-        // App routes
-        routes: routes,
+        routes: routes, // App routes
+        pushState: true, // Push state
       },
     }
   }
