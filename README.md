@@ -8,7 +8,7 @@ npm install -g cordova
 ```
 
 ```
-git clone https://github.com/lawik123/vue-scrum-board.git
+git clone https://github.com/lawik123/framework7-vue-places.git
 ```
 
 ```
