@@ -1,31 +1,45 @@
 # framework7-vue-places
 
-## Usage
+## Project setup
+This guide assumes that you have [git](https://git-scm.com/), [npm](https://nodejs.org), [android studio](https://developer.android.com/studio/) and (if you want to build for iOS) [xcode](https://developer.apple.com/xcode/) installed.
 
-### 1. Download this repository
 ```
-git clone https://github.com/lawik123/framework7-vue-places
+npm install -g cordova
 ```
 
-### 2. Instal dependencies
+```
+git clone https://github.com/lawik123/vue-scrum-board.git
+```
 
-Go to the downloaded repository folder and run:
 ```
 npm install
 ```
 
-### 3. Run the app
-
 ```
-npm run dev
+npm run cordova-prepare
 ```
 
-App will be opened in browser at `http://localhost:8080/`
-
-### 4. Build app for production
-
+### Compiles and hot-reloads for development in the browser (Framework7 only, doesn't include Cordova)
 ```
-npm run build
+npm run start
 ```
 
-The output will be at `www/` folder
+### Compiles and runs on the browser
+```
+npm cordova-run
+```
+
+### Compiles and runs on the Android
+```
+npm cordova-run-android
+```
+
+### Compiles and runs on the iOS
+```
+npm cordova-run-ios
+```
+
+### Build for release
+```
+npm cordova-build-release
+```

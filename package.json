@@ -12,6 +12,7 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
+    "cordova-prepare": "cordova prepare",
     "cordova-build": "npm run build && cordova build",
     "cordova-build-release": "npm run build && cordova build --release",
     "cordova-run": "npm run build && cordova run browser",
