@@ -26,20 +26,20 @@ npm run start
 
 ### Compiles and runs on the browser
 ```
-npm cordova-run
+npm run cordova-run
 ```
 
 ### Compiles and runs on the Android
 ```
-npm cordova-run-android
+npm run cordova-run-android
 ```
 
 ### Compiles and runs on the iOS
 ```
-npm cordova-run-ios
+npm run cordova-run-ios
 ```
 
 ### Build for release
 ```
-npm cordova-build-release
+npm run cordova-build-release
 ```
