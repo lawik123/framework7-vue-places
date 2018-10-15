@@ -29,12 +29,12 @@ npm run start
 npm run cordova-run
 ```
 
-### Compiles and runs on the Android
+### Compiles and runs on Android
 ```
 npm run cordova-run-android
 ```
 
-### Compiles and runs on the iOS
+### Compiles and runs on iOS
 ```
 npm run cordova-run-ios
 ```
