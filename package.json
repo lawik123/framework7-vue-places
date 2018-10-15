@@ -13,6 +13,7 @@
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
     "cordova-build": "npm run build && cordova build",
+    "cordova-build-release": "npm run build && cordova build --release",
     "cordova-run": "npm run build && cordova run browser",
     "cordova-run-ios": "npm run build && cordova run ios",
     "cordova-run-android": "npm run build && cordova run android",
